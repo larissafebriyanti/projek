@@ -131,7 +131,7 @@ st.set_page_config(page_title="Kalkulator Sifat Fisik Nanomaterial", layout="wid
 
 
 # Sidebar dengan gambar
-image = Image.open("AKA.jpg")
+image = Image.open("https://bic.id/wp-content/uploads/2018/11/LOGO-POLTEK-AKA.jpg")
 st.sidebar.image(image, use_container_width=True)
 st.sidebar.title("Navigasi")
 
